@@ -47,8 +47,8 @@ function App() {
     </div>
     <div className='btns'>
       {createNumbers()}
-      <button className='btn bottom-left'>0</button>
-      <button className='btn'>.</button>
+      <button className='btn bottom-left' onClick={() => updateDisplay('0')>0</button>
+      <button className='btn' onClick={() => updateDisplay('.')}>.</button>
       <button className='btn bottom-right' onClick={calcDisplay}>=</button>
     </div>
   </div>
